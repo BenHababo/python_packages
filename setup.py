@@ -12,10 +12,10 @@ def parse_requirements(filename):
         return []
 
 
-pakace_name = 'test-package'
+pakace_name = 'test_package'
 setup(
     name=pakace_name,
-    version='0.1',
+    version='0.1.1',
     packages=find_packages(where=pakace_name),
     install_requires=[
         # List your package dependencies here
